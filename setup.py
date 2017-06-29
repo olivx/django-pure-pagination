@@ -9,13 +9,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-pure-pagination',
     version='0.3.0',
-    url='https://github.com/jamespacileo/django-pure-pagination/',
+    url='https://github.com/olivx/django-pure-pagination/',
     author='James Pacileo',
     author_email='jamespacileo@gmail.com',
     description='''django-pure-pagination provides advanced pagination features
                    and is fully compatible with existing code based on Django's
-                   core 
-                   pagination module. (aka no need to rewrite code!)''',
+                   core pagination module. (aka no need to rewrite code!)''',
     long_description=README,
     license='BSD',
     packages=find_packages(),

@@ -210,7 +210,7 @@ class Page(object):
 
     def render(self):
         # pure_pagination/pagination.html'
-        return render_to_string('pure_pagination-bootstrap.html', {
+        return render_to_string('pure_pagination/pagination-bootstrap.html', {
             'current_page': self,
             'page_obj': self,  # Issue 9 https://github.com/jamespacileo/django-pure-pagination/issues/9
                                # Use same naming conventions as Django
